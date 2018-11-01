@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jsonTransfoms>
+	
+	<rule routeName="getTransformMessage"
+		reqTransform="local:///IIB/mappings/jsonx2xml.xslt"
+		ansTransform="local:///IIB/mappings/getTransformMessage2json.xslt"
+		errTransform="local:///common/errorHandling/cmnJSONerror.xsl"/>	
+		
+</jsonTransfoms>

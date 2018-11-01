@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<route>
+        <rule
+		matchURI="/dp/test/transformMessage"
+		backendURI="/?RequestQueue=TEST.REQ"
+		transformURL="http://127.0.0.1:7172"
+		transformName="getTransformMessage"
+		backendURL="dpmq://TEST_QM"
+		backendTimeout="110"
+		backendExpire="1100"/>
+</route>
