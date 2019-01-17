@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!--Трансформация произошедшей в основном MPG ошибки в JSON формат -->
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:dp="http://www.datapower.com/extensions" extension-element-prefixes="dp" exclude-result-prefixes="dp fo">
 	<xsl:output method="text" encoding="utf-8" indent="no" media-type="application/json"/>
 	<xsl:template match="/">

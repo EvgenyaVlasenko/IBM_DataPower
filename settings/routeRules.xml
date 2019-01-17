@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!--Настройки маршрутизации (url, имя трансформации (необходимо для определения файлов трансформаций)), а также необходимые менеджеру очередей параметры (менеджер, очереди, таймауты)-->
 <route>
         <rule
 		matchURI="/dp/test/transformMessage"
-		backendURI="/?RequestQueue=TEST.REQ"
+		backendURI="/?RequestQueue=DP.IIB.REQIN"
 		transformURL="http://127.0.0.1:7172"
 		transformName="getTransformMessage"
 		backendURL="dpmq://TEST_QM"

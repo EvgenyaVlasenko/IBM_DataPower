@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!--Процесс получения файла маршрутизации из домена settings, а также установка полученных из него значений в качестве параметров запроса.-->
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:regexp="http://exslt.org/regular-expressions" xmlns:str="http://exslt.org/strings" xmlns:dp="http://www.datapower.com/extensions" extension-element-prefixes="dp regexp str" exclude-result-prefixes="dp regexp str fo">
 	<xsl:template match="/">
 		<xsl:variable name="URI" select="dp:variable('var://service/URI')"/>
